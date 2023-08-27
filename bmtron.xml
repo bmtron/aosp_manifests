@@ -1,7 +1,0 @@
-<?xml version="1.0" encodings="UTF-8"?>
-<manifest>
-    <remote name="bmtron" fetch="ssh://git@github.com/bmtron/" />
-    <project path="vendor/bmtron" name="aosp_manifests" 
-        remote="bmtron" revision="main" />
-
-</manifest>
