@@ -10,5 +10,5 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/media
 include $(BUILD_SYSTEM)/base_rules.mk
 
 $(LOCAL_BUILT_MODULE): $(TARGET_BOOTANIMATION)
-    @mkdir -p $(dir $@)
+	@mkdir -p $(dir $@)
     @cp $(TARGET_BOOTANIMATION) $@
