@@ -11,4 +11,4 @@ include $(BUILD_SYSTEM)/base_rules.mk
 
 $(LOCAL_BUILT_MODULE): $(TARGET_BOOTANIMATION)
 	@mkdir -p $(dir $@)
-    @cp $(TARGET_BOOTANIMATION) $@
+	@cp $(TARGET_BOOTANIMATION) $@
